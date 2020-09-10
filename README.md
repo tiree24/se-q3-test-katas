@@ -1,3 +1,5 @@
+<img height="120px" src="https://www.nankov.com/static/513d57a03f24684ba6f1f88c1edbde88/c35de/featured.jpg" />
+
 # Test These Katas
 The [katas.py](katas.py) file includes our solution to the prior activity [Functions and Loops](https://github.com/KenzieAcademy/backend-katas-functions-loops).
 
@@ -30,6 +32,16 @@ https://code.visualstudio.com/docs/python/testing#_test-discovery
 - Test folder pattern is `tests`
 - Test name pattern is `test*`
 
+## Writing the Tests
+Each test you write should have at least one `assert` or `self.assertXXXXX` where it checks an actual return value against an expected value.
+
+ - **add**: Generate some random integers or floats using the `random` library.  Does the `add` function in katas.py add the numbers together correctly?  Does the function handle negative values correctly?
+ - **multiply**: Write tests similar to the `add` function tests.
+ - **power**: Does the function handle positive integers correctly?  The function should raise a [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError) exception if you provide a negative or fractional exponent value.  How can you test if a function raises an exception?  (Hint: explore the assertion methods available in [Unittest.TestCase](https://docs.python.org/3/library/unittest.html#unittest.TestCase) parent class)
+ - **factorial**: Set up a list of the first 15 terms of the factorial series as literal integer values.  Make sure the function returns the correct values when iterating through values of n.  Does the function raise a `ValueError` if you give it negative values?
+ - **fibonacci**: Test if the function can produce the first 30 terms of the fibonacci sequence.  Make sure that it raise a `ValueError` exception when given a negative number.
+
 ## Submitting your work
+This excercise may be provided as a graded assignment, or an ungraded Activity.
 To submit your solution for grading, you will need to create a github [Pull Request (PR)](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).  Refer to the `PR Workflow` article in your course content for details.
 
