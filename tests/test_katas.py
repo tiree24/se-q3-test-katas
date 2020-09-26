@@ -10,6 +10,7 @@ class TestKatas(unittest.TestCase):
 
     def test_multiply(self):
         self.assertEqual(katas.multiply(10, 5), 50)
+        self.assertEqual(katas.multiply(10, 2), 20)
 
     def test_power(self):
         self.assertEqual(katas.power(3, 2), 9)
